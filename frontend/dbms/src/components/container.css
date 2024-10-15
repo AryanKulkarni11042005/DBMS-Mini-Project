@@ -1,0 +1,275 @@
+body{
+  background-color: #302f2f;/* Center text inside the elements */
+
+}
+.btn {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 25px;
+    font-size: 18px;
+    margin: 30px 0 0 30px;
+    cursor: pointer;
+    width: 80%;
+    display: block;
+    text-decoration: none;
+    box-sizing: border-box; /* add this line */
+}
+ .btn:hover{
+    background-color: #c5c5c5;
+}
+.client-btn:hover{
+  background-color: #c5c5c5;
+}
+.client-btn {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 25px;
+  font-size: 18px;
+  margin: 10px 0 0 30px;
+  cursor: pointer;
+  width: 80%;
+  display: block;
+  text-decoration: none;
+  box-sizing: border-box; /* add this line */
+}
+
+.text {
+    color: #000000;
+}
+
+.container {
+    background-color: #000000;
+    width: 40vh;
+    height: 25vh;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+.divider {
+    border-top: 0.5px solid #ccc;
+    margin-top: 25px ;
+    margin-bottom: 10px;
+}
+
+.divider::before {
+    content: 'OR';
+    display: inline-block;
+    position: relative;
+    top: -10px;
+    background-color: #000000;
+    padding: 0 5px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+h1{
+    color: #ffff;
+}
+/* Form container */
+form {
+    width: 50vh;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #000000;
+    
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form labels */
+  form label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  /* Form inputs */
+  form input[type="text"], form input[type="password"] {
+    width: 48vh;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    background-color: #0000;
+    border-radius: 5px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  form input[type="text"]:focus, form input[type="password"]:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form button */
+  form .submit {
+    background-color: hsl(300, 100%, 85%);
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .submit{
+    background-color: hsl(300, 100%, 85%);
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form .submit:hover {
+    background-color: hsl(300, 100%, 85%);
+  }
+  .submit:hover {
+    background-color: hsl(300, 100%, 85%);
+  }
+  
+  /* Form spacing */
+  form br {
+    margin-bottom: 20px;
+  }
+  
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #302f2f;
+    padding: 10px;
+    text-align: center;
+    z-index: 1000; /* Ensure the nav stays on top */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add subtle shadow for depth */
+  }
+
+  nav span {
+    font-size: 1.7em;
+    float: left;
+    color: aliceblue;
+    margin-left: 2rem;
+  
+    font-size: 1.7em;
+    float: left;
+    color: aliceblue;
+    margin-left: 2rem;
+  }
+  
+  .nav-links {
+    float: right;
+    padding-top: 6px;
+
+  }
+  
+  .nav-link {
+    background-color: hsl(300, 100%, 85%);
+    color: black;
+    font-weight: bold;
+    padding: 10px 35px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 50px;
+    display: inline-block;
+    margin-right: 50px;
+  }
+ 
+  .home {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align items horizontally */
+    justify-content: center; /* Center align items vertically */
+    height: 100vh; /* Optional: Full viewport height */
+    text-align: center; /* Center text inside the elements */
+  }
+  .login{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align items horizontally */
+    justify-content: center; /* Center align items vertically */
+    height: 100vh; /* Optional: Full viewport height */
+    text-align: center; 
+    background-color: #302f2f;/* Center text inside the elements */
+  }
+  .logo {
+    width: 50px; /* Set the desired width */
+    height: 50px; /* Set the desired height */
+    border-radius: 10px; /* Make the logo circular */
+    object-fit: cover;
+    float: left; 
+    margin-left: 30px;/* Ensure the image covers the entire area */
+  }
+
+  
+  .dashboard {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center; /* Center content vertically */
+    align-items: center;
+    text-align: center;
+    background-color: #302f2f;/* Center text inside the elements */
+
+  }
+  
+  .page {
+    width: 100%;
+    /* max-width: 800px; Optional: Set a max-width for the content */
+    padding: 60px 20px 20px 20px;
+
+    
+    box-sizing: border-box;
+  }
+  .dashboardh1 {
+    margin-bottom: 20px; /* Optional: Add some space below the h1 */
+    text-align: center; /* Center text inside the h1 */
+  }
+  .page h1{
+    color: hsl(300, 100%, 85%);
+  }
+  
+  :root {
+    --table-bg: #f8f9fa;
+    --table-header-bg: hsl(300, 100%, 79%);
+    --table-header-color: #black;
+    --table-border: #dee2e6;
+    --table-hover-bg: #e9ecef;
+    --table-text-color: #212529;
+  }
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+  }
+  
+  /* Table header styles */
+  .table th {
+    background-color: var(--table-header-bg);
+    color: var(--table-header-color);
+    padding: 12px;
+    border: 1px solid var(--table-border);
+  }
+  
+  /* Table body styles */
+  .table td {
+    background-color: var(--table-bg);
+    color: var(--table-text-color);
+    padding: 12px;
+    border: 1px solid var(--table-border);
+  }
+  
+  /* Hover effect for table rows */
+  .table tbody tr:hover {
+    background-color: var(--table-hover-bg);
+  }
+  

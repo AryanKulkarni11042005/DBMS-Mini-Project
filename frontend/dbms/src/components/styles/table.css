@@ -1,0 +1,44 @@
+.table {
+  border-collapse: collapse;
+  width: 90%;
+  margin: 20px 0 20px 30px;
+}
+
+/* Dark theme styles */
+.table-dark {
+  background-color: var(--table-bg);
+  color: var(--table-text-color);
+}
+
+.table-dark th, .table-dark td {
+  padding: 10px;
+  text-align: left;
+  border-right: 1px solid var(--table-border);
+}
+
+.table-dark th {
+  background-color: var(--table-header-bg);
+  border-bottom: 1px solid var(--table-border);
+  font-weight: bold;
+}
+
+.table-dark td {
+  border-bottom: 1px solid var(--table-border);
+}
+
+.table-dark th:first-child, .table-dark td:first-child {
+  padding-left: 20px;
+}
+
+.table-dark th:last-child, .table-dark td:last-child {
+  padding-right: 20px;
+  border-right: none;
+}
+
+.table-dark tr:hover {
+  background-color: var(--table-hover-bg);
+}
+
+.table-dark tr:hover td {
+  color: var(--table-hover-color);
+}

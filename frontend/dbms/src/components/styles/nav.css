@@ -1,0 +1,30 @@
+
+  .nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  
+  nav span {
+    font-size: 1.7em;
+  }
+  
+  .nav-links {
+    float: right;
+  }
+  
+  .nav-link {
+    background-color: blue;
+    color: white;
+    padding: 5px 35px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 50px;
+    display: inline-block;
+  }
+  
